@@ -656,3 +656,19 @@ details[open] summary {
         max-width: 600px;
     }
 }
+
+.tab-container {
+  overflow-y: hidden; 
+  padding: 0.5rem 0;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tab-container hr {
+  margin: 0;
+  width: 100%;
+  border: none;
+  border-top: 1px solid var(--border-primary);
+}
